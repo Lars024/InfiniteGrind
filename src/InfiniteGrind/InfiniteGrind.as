@@ -66,7 +66,7 @@ package InfiniteGrind
 			
 			//Hopefully temporary requirement of hotkey press to set initial xp on game start
 			var pE:KeyboardEvent = event.eventArgs.event;
-			if (pE.keyCode == 65){
+			if (pE.charCode == 65){
 				logger.log("InfiniteGrind", "key press detected");
 				var xp:int;
 				
